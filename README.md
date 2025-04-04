@@ -3,7 +3,7 @@
 ![segfit](images/segfit.png)
 
 ## Installation
-First, clone this repository recursively: `git clone --recurse-submodules git@gitlab.com:kai.lascheit.000/segfit.git`
+First, clone this repository recursively: `git clone --recurse-submodules https://github.com/segfit/segfit.git`
 Then set up the environment as detailed on the [Human3D](https://github.com/human-3d/Human3D) repository. 
 Finally, run `pip install -r requirements.txt`.
 
@@ -16,7 +16,7 @@ Simply run with:
 The `is_input_z_up`parameter defaults to `True` and providing SMPLX ground truth parameters is optional. If using the Hi4D dataset, also add the `--is_hi4d` flag for correct coordinate system alignment.
 
 ## Example
-Run: `python segfit.py --input_path=/home/klascheit/code/segfit/example/egobody/scans/ --human3d_ckpt=ckpts/human3d.ckpt --is_input_z_up=False --smplx_gt_dir=/home/klascheit/code/segfit/example/egobody/truths/`.
+Run: `python segfit.py --input_path=<repository_path>/example/egobody/scans/ --human3d_ckpt=ckpts/human3d.ckpt --is_input_z_up=False --smplx_gt_dir=<repository_path>/example/egobody/truths/`.
 
 
 ## Acknowledgements
