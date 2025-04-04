@@ -1,0 +1,23 @@
+data:
+  log_path: results/segfit.log
+  vposer_dir: /../../human_body_prior/support_data/dowloads/V02_05
+
+fitting:
+  max_iter: 200
+  min_points_per_human: 1000
+  max_points: 10000
+  use_body_parts: True
+  use_centroids: True
+  use_full_scan: True
+  loss: huber
+  stopping_condition: 0.01
+  initial_translation: [0, 0, 0]
+
+weights:
+  pose_prior: 0.5
+  shape_prior: 10.0
+  chamfer_centroid: 100
+  chamfer_full: 20000
+
+visualise:
+  save_meshes: True

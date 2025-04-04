@@ -1,0 +1,7 @@
+# @package _group_
+_target_: models.matcher_hp.HungarianMatcherHumanParts
+cost_human_class: 2.
+cost_part_class: 2.
+cost_mask: 5.
+cost_dice: 2.
+num_points: -1

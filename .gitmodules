@@ -1,0 +1,3 @@
+[submodule "human3d"]
+	path = human3d
+	url = git@github.com:aycatakmaz/demo_human3d_temp.git

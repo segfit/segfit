@@ -1,0 +1,2 @@
+#image_name [person_id person_confidence] x n; Don't include this title line in your submission.
+3 1 0.25 2 1.0
